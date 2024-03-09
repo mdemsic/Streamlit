@@ -31,7 +31,7 @@ def plot_vibration(A, B, m, k):
     return fig
 
 # Streamlit aplikacija
-def plot_vibration():
+def streamlit_app():
     st.title('Vizualizacija slobodnog neprigušenog titranja')
 
     # Definiranje korisničkih ulaza pomoću streamlit widgeta
@@ -45,4 +45,4 @@ def plot_vibration():
     st.pyplot(fig)
 
 # Pokretanje streamlit aplikacije
-plot_vibration(A, B, m, k)
+sreamlit_app(A, B, m, k)
