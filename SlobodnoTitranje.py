@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar  9 17:52:26 2024
-
-@author: mdems
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
@@ -45,4 +38,5 @@ def streamlit_app():
     st.pyplot(fig)
 
 # Pokretanje streamlit aplikacije
-sreamlit_app(A, B, m, k)
+if __name__ == "__main__":
+    streamlit_app()
